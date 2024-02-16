@@ -144,20 +144,26 @@ body{
 
 
 /* MAIN */
-main{
+.main{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 1400px;
+}
+
+.main .janela{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
-    width: 90%;
-    margin: 30px 20px 0 20px;
+    position: relative;
+    top: 40px;
+    left: 75px;
+    gap:  20px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    border: 2px solid green;
 }
 
-
-
-/* SECTION JANELA */
-.janela{
-   
-}
 
 
 
