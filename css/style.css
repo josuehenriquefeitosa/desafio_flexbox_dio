@@ -37,3 +37,38 @@ body{
     height: 24px;
     gap: 32px;
 }
+
+.navbar ul .pesquisa{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 404px;
+    height: 40px;
+    /* border: 1px solid #cccccc; */
+
+}
+
+/* .navbar ul .pesquisa .campo-pesquisa{
+    border: 1px solid #cccccc;
+} */
+
+.navbar ul .pesquisa #cx-texto{
+    width: 100%;
+    height: 100%;
+    padding:0 0 0 16px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #303030;
+    border-right: none;
+}
+
+.navbar ul .pesquisa #btn-lupa{
+    width: 57px;
+    height: 100%;
+    border: 1px solid #303030;
+    border-radius: 0 20px 20px 0;
+}
+
+.navbar ul .pesquisa #btn-lupa:hover{
+    background-color: #cecece;
+    cursor: pointer;
+}
