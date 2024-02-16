@@ -66,9 +66,28 @@ body{
     height: 100%;
     border: 1px solid #303030;
     border-radius: 0 20px 20px 0;
+    transition: ease-in-out 250ms;
 }
 
 .navbar ul .pesquisa #btn-lupa:hover{
     background-color: #cecece;
     cursor: pointer;
+}
+
+
+
+.navbar ul .mic button{
+    background-image: url(../img/mic1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    border-radius: 50%;
+    transition: ease-in-out 250ms;
+}
+
+.navbar ul .mic button:hover{
+    background-color: #cecece;
 }
