@@ -15,12 +15,12 @@ body{
     box-sizing: border-box;
 }
 
-navbar{
+.navbar{
     background-color: #ffffff;
     width: 100vw;
     border: 1px solid red;
 }
 
-navbar ul{
+.navbar ul{
     display: flex;
 }
