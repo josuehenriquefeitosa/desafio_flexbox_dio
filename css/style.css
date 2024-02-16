@@ -23,4 +23,17 @@ body{
 
 .navbar ul{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    height: 56px;
+    border: 1px solid green;
+}
+
+.navbar ul .start{
+    display: flex;
+    align-items: center;
+    width: 146px;
+    height: 24px;
+    gap: 32px;
 }
