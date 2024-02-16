@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     border: none;
+    font-family: 'Roboto',sans-serif;
 }
 
 /* ============ BODY ============ */ 
@@ -145,26 +146,53 @@ body{
 
 /* MAIN */
 .main{
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     border: 1px solid red;
-    width: 1400px;
+    width: 100%;
 }
 
 .main .janela{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     position: relative;
     top: 40px;
     left: 75px;
-    gap:  20px;
-    align-items: center;
-    text-align: center;
-    width: 100%;
+    width: 945px;
+    margin-right: 80px;
     border: 2px solid green;
 }
 
+.main .janela .video{
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(243, 157, 8);
+}
 
+.main .janela .video iframe{
+    padding: 0 5px 0 0 ;
+}
+
+.main .janela .descricao{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+.main .janela .descricao .informacoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .janela .descricao .informacoes div{
+    display: flex;
+}
+.main .janela .descricao .informacoes .logo{
+    display: flex;
+}
 
 
 
