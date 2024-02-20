@@ -150,7 +150,7 @@ body{
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     position: absolute;
     top: 84px;
@@ -164,7 +164,7 @@ body{
     position: relative;
     left: 75px;
     width: 952px;
-    border: 2px solid green;
+    /* border: 2px solid green; */
 }
 
 .main .janela .video{
@@ -172,7 +172,7 @@ body{
     width: 100%;
     height: 0;
     padding-bottom: 56.25%;
-    border: 2px solid rgb(243, 157, 8);
+    /* border: 2px solid rgb(243, 157, 8); */
 }
 
 .main .janela .video iframe{
@@ -332,7 +332,21 @@ body{
 }
 .main .cards .card{
     display: flex;
+    cursor: pointer;
+    transition: ease-in-out 250ms;
 }
+.main .cards .card:hover{
+    background-color: #f0f0f0;
+}
+.main .cards .card:active{
+    background-color: #cecece;
+}
+
+.main .cards .card img{
+    width: 100%;
+    height: 100%;
+}
+
 .main .cards .card .dados{
     display: flex;
     justify-content: center;
