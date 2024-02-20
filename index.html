@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Clone Youtube</title>
 </head>
+
 <body>
     <nav class="navbar">
         <ul>
@@ -13,7 +15,7 @@
                 <li class="menu-mobile">
                     <img src="./img/menu.svg" alt="" srcset="">
                 </li>
-                
+
                 <li class="logo-youtube">
                     <a href="#">
                         <img src="./img/youtube-logo.svg" alt="">
@@ -22,7 +24,7 @@
             </div>
 
             <li class="pesquisa">
-                <input type="text" name="cx-texto" id="cx-texto" placeholder="Pesquisar"/>
+                <input type="text" name="cx-texto" id="cx-texto" placeholder="Pesquisar" />
                 <button type="submit" id="btn-lupa"><img src="./img/search.svg" alt="lupa-pesquisa"></button>
             </li>
 
@@ -32,64 +34,76 @@
 
             <li class="profile">
                 <div>
-                    <img src="./img/video.svg"  alt="Iniciar transmissão">
+                    <img src="./img/video.svg" alt="Iniciar transmissão">
                 </div>
                 <div>
-                    <img src="./img/bell.svg" alt="Notificações">   
+                    <img src="./img/bell.svg" alt="Notificações">
                 </div>
                 <div>
-                    <img id="perfil" src="./img/FOTO PERFIL.jpg" alt="Imagem de perfil do usuário"/>   
+                    <img id="perfil" src="./img/FOTO PERFIL.jpg" alt="Imagem de perfil do usuário" />
                 </div>
-                
-                
+
+
             </li>
         </ul>
     </nav>
     <main class="main">
         <section class="janela">
             <div class="video">
-                <iframe width="952" height="537" src="https://www.youtube.com/embed/ckQN6Zu5UZo?list=PLPFhNx6dMDJptF1Kals8rPVPnImNlHeLj" title="Crie o seu Threads: seu clone pessoal do Twitter feito com Angular e TypeScript - Aula 01" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="952" height="537"
+                    src="https://www.youtube.com/embed/ckQN6Zu5UZo?list=PLPFhNx6dMDJptF1Kals8rPVPnImNlHeLj"
+                    title="Crie o seu Threads: seu clone pessoal do Twitter feito com Angular e TypeScript - Aula 01"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
             <div class="descricao">
                 <h1>Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS</h1>
-                <div class="informacoes">
+
+                <div class="informacoes-engajamento">
                     <div class="logo">
                         <img src="./img/logo_dio.png" alt="">
                         <div>
-                            
+                            <p>DIO</p>
+
+                            <p>83,3 mil inscritos</p>
                         </div>
-                        <p>DIO</p>
-                    
-                        <p>83,3 mil inscritos</p>
                     </div>
-                    <button id="btn-inscrever">Inscreva-se</button>
-                    <div>
+                    <button id="btn-inscrever">INSCREVA-SE</button>
+                    <div class="like">
                         <img src="./img/joinha.svg" alt="joinha">
                         <p>2 mil</p>
                     </div>
 
-                    <div>
+                    <div class="dislike">
                         <img src="./img/dislike.png" alt="Dislike">
                         <p>Não gostei</p>
                     </div>
-                    
-                    <div>
+
+                    <div class="compartilhar">
                         <img src="./img/compartilhar.svg" alt="Compartilhar">
                         <p>Compartilhar</p>
                     </div>
 
-                    <div>
+                    <div class="download">
                         <img src="./img/download.svg" alt="Download">
                         <p>Download</p>
                     </div>
                 </div>
+                <div class="informacoes-texto">
+                    <p>28.418 visualizações Transmitido ao vivo em 23 ago. de 2022</p>
+
+                    <p>Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma
+                        landing page com a temática da série Stranger Things, a qual contará com a implementação de um
+                        theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.</p>
+                </div>
             </div>
-        </section>  
-        
+        </section>
+
         <section class="cards">
             <div class="card">
                 <div>
-                    <img src="./img/card-video1.png" alt="">
+                    <img src="./img/card-video1.png" alt="Geração Tech Unimed - BH - Ciencia de dados">
                 </div>
                 <div class="dados">
                     <h4>Geração Tech Unimed - BH - Ciencia de dados
@@ -102,27 +116,27 @@
 
             <div class="card">
                 <div>
-                    <img src="./img/card-video2.png" alt="">
+                    <img src="./img/card-video2.png" alt="Scrum Talks">
                 </div>
                 <div class="dados">
-                    <h4>Geração Tech Unimed - BH - Ciencia de dados
+                    <h4>Scrum Talks
                     </h4>
                     <p>Digital Inovation One</p>
-                    <p>2,1 mil visualizações</p>
-                    <p>Transmitido há 2 dias</p>
+                    <p>1,6 mil visualizações</p>
+                    <p>Transmitido há 3 dias</p>
                 </div>
             </div>
 
             <div class="card">
                 <div>
-                    <img src="./img/card-video3.png" alt="">
+                    <img src="./img/card-video3.png" alt="Machine Learning Avançado - Fast Track">
                 </div>
                 <div class="dados">
-                    <h4>Geração Tech Unimed - BH - Ciencia de dados
+                    <h4>Machine Learning Avançado - Fast Track
                     </h4>
                     <p>Digital Inovation One</p>
-                    <p>2,1 mil visualizações</p>
-                    <p>Transmitido há 2 dias</p>
+                    <p>1,7 mil visualizações</p>
+                    <p>Transmitido há 4 dias</p>
                 </div>
             </div>
 
@@ -167,20 +181,34 @@
 
             <div class="card">
                 <div>
-                    <img src="./img/card-video2.png" alt="">
+                    <img src="./img/card-video2.png" alt="Scrum Talks">
                 </div>
                 <div class="dados">
-                    <h4>Geração Tech Unimed - BH - Ciencia de dados
+                    <h4>Scrum Talks
                     </h4>
                     <p>Digital Inovation One</p>
-                    <p>2,1 mil visualizações</p>
-                    <p>Transmitido há 2 dias</p>
+                    <p>1,6 mil visualizações</p>
+                    <p>Transmitido há 3 dias</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <img src="./img/card-video3.png" alt="Machine Learning Avançado - Fast Track">
+                </div>
+                <div class="dados">
+                    <h4>Machine Learning Avançado - Fast Track
+                    </h4>
+                    <p>Digital Inovation One</p>
+                    <p>1,7 mil visualizações</p>
+                    <p>Transmitido há 4 dias</p>
                 </div>
             </div>
         </section>
     </main>
-    
 
-    
+
+
 </body>
+
 </html>
